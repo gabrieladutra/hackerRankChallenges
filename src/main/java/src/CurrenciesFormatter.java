@@ -2,7 +2,6 @@
 Given a double-precision number, , denoting an amount of money, use the NumberFormat class' getCurrencyInstance method
 to convert  into the US, Indian, Chinese, and French currency formats. Then print the formatted values
  */
-
 package src;
 
 import java.text.NumberFormat;
@@ -13,7 +12,7 @@ public class CurrenciesFormatter {
         return locationFormat.format(money);
     }
 
-    public static void main(String[] args) {
+    public static void main(ComparedString[] args) {
         double payment = 23456.77;
 
         Locale us = Locale.getDefault();
