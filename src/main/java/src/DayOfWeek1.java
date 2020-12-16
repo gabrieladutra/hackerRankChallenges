@@ -8,6 +8,7 @@ You are given a date. You just need to write the method,getDay, which returns th
 package src;
 
 import java.time.*;
+import java.util.Scanner;
 
 public class DayOfWeek1 {
     public static String findDay(int month, int day, int year) {
@@ -15,4 +16,6 @@ public class DayOfWeek1 {
         DayOfWeek dayOfWeek = DayOfWeek.from(localDate);
         return dayOfWeek.name();
     }
+
+
 }
